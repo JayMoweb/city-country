@@ -131,12 +131,12 @@
 		var email = document.getElementById('email').value;
 		var password = document.getElementById('password').value;
 
-		 if(name == '' && email == '' &&  password == '') {
+		if(name == '' && email == '' &&  password == '') {
 		 	document.getElementById('errorAll').innerHTML = 'Enter the All the element fill';
 		 	return false;
-		 }else{
+		}else{
 		 	document.getElementById('errorAll').innerHTML = 'ok.';
 		 	return true;
-		 }
+		}
 	}
 </script>
